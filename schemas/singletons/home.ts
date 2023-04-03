@@ -39,6 +39,8 @@ export default defineField({
         {type: 'module.image'},
         {type: 'module.instagram'},
         {type: 'module.product'},
+        {type: 'module.videoHero'},
+        {type: 'module.imageHero'}
       ],
       group: 'editorial',
     }),

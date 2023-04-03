@@ -23,7 +23,7 @@ export default defineField({
       type: 'boolean',
       description: 'Display single image at full width (on larger breakpoints)',
       initialValue: false,
-      hidden: ({parent}) => parent?.modules.length > 1,
+      hidden: ({parent}) => parent?.modules?.length > 1,
     }),
     // Vertical alignment
     defineField({
@@ -49,8 +49,8 @@ export default defineField({
           },
         ],
       },
-      hidden: ({parent}) => !parent?.modules || parent?.modules.length < 2,
-      validation: (Rule) => Rule.required(),
+      hidden: ({parent}) => !parent?.modules || parent?.modules?.length < 2,
+    //   validation: (Rule) => Rule.required(),
     }),
   ],
   preview: {

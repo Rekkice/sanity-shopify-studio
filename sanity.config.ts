@@ -14,9 +14,9 @@ const devOnlyPlugins = [visionTool()]
 
 export default defineConfig({
   name: 'default',
-  title: 'Sanity + Shopify demo',
+  title: 'Superfood Greens studio',
 
-  projectId: 'g2b4qblu',
+  projectId: 'cxuqzknc',
   dataset: 'production',
 
   plugins: [
